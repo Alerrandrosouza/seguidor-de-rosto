@@ -100,10 +100,4 @@ while True:
     # Exibe o vídeo com a detecção de rosto
     cv2.imshow("Face Tracking", frame)
 
-    # Encerra com a tecla 'q'
-    if cv2.waitKey(1) & 0xFF == ord('q'):
-        break
-
-# Finaliza o programa
-cap.release()
-cv2.destroyAllWindows()
+   
