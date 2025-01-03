@@ -3,7 +3,7 @@ import numpy as np
 from pyfirmata2 import Arduino
 
 # Configuração do Arduino
-port = "COM3"  # Substitua pela porta correta do seu Arduino
+port = "COM3"  # porta que utilizei na IDE arduino
 board = Arduino(port)
 servoX = board.get_pin('d:7:s')  # Servo conectado no pino 7
 servoY = board.get_pin('d:10:s')  # Servo conectado no pino 10
